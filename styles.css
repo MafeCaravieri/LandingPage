@@ -1,0 +1,180 @@
+html {
+  background-color: #FFFFFF;
+  font-family: 'Nunito', sans-serif;
+  color: #0a1b2b;
+}
+
+body {
+  text-align: center;
+  background-color: #F5F7F9;
+  border-radius: 20px;
+  padding: 100px;
+}
+
+#header {
+  display: flex;
+  padding: 10px 20px;
+  align-items: center;
+  justify-content: center;
+  gap: 70px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #F5F7F9;
+  z-index: 1000; 
+
+}
+
+#future-air {
+  color: #0a1b2b;
+  font-weight: 700;
+  margin-top: 10px;
+}
+
+#nav-bar {
+  display: flex;
+  gap: 70px;
+  align-items: center;
+  justify-content: flex-end;       
+}
+
+#nav-bar a {
+  text-decoration: none;
+  color: #394046;
+  transition: transform 0.2s ease;
+
+  
+}
+
+#nav-bar a:hover {
+  transform: scale(1.1)
+}
+
+#header-img {
+  height: 60px;
+  width: 60px;
+  transition: transform 0.2s ease;
+}
+
+#header-img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 800px) {
+
+  #header {
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+  }
+
+  #nav-bar {
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 10px;
+  }
+}
+
+#form {
+  background: #ededed;
+  width: 60vw;
+  padding: 40px;
+  margin: 20px auto;
+  border-radius: 20px;
+}
+
+#form label {
+  font-weight: 800;
+  font-size: 1.2em;
+}
+
+#form input {
+  border-radius: 10px;
+  border: 0.5px solid black;
+  padding: 5px;
+  margin: 10px;
+  transition: transform 0.2s ease;
+  display: inline;
+
+}
+#form #email {
+  width: 90%;
+  text-align: center;
+  margin-top: 20px;
+}
+
+#form #submit {
+  width: 90px
+}
+#form #submit:hover {
+  transform: scale(1.1);
+  background: #dadada;
+}
+
+#form #submit:active {
+  transform: scale(1.1);
+  background: #bcaeae;
+}
+
+h1 {
+  background: #dadada;
+  width: 30vh;
+  margin: auto;
+  border-radius: 20px;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.features-card {
+  border-bottom: 1px solid grey;
+  width: 90vw;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.HIW h1{
+  margin: 20px auto;
+}
+.HIW-card {
+  text-align: center;
+  list-style-position: inside;
+  margin: 0 auto;
+  width: 60%
+}
+.hiw-table {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 70vh;
+  
+}
+
+
+.hiw-table th, .hiw-table td {
+  padding: 15px;
+  text-align: left;
+}
+
+.pricing h1{
+  margin-top: 20px;
+}
+
+.pricing ul {
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+footer p {
+  background-color: #ededed;
+  margin: 80px auto auto 0;
+  display: block;
+  width: 100;
+  height: 100;
+}
